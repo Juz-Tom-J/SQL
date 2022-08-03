@@ -1,1 +1,1 @@
-# New Private repository for trying SQL Commands
+# Repository for SQL Commands
