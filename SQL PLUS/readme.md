@@ -1,7 +1,10 @@
 ## Quick Navigation
 * Click the link to go to specific heading
 
-[Zip File Downloading and Installation](###Download-and-start-installation)
+  * [Downloading Zip File](###Download-and-start-installation)
+  * [Installation](###After-the-running,-you-can-see:)
+
+<br>
 
 ### Download and start installation
 
@@ -11,7 +14,9 @@
 
 <img src="images/setup.png" title="setup.exe" width="400"/>
 
-* After the running, you can see:
+<br>
+
+### After the running, you can see:
    * Put your mouse cursor on the image to see instructions.
 <img src="images/inst1.jpeg" title="Installing..wait" width="400"/>
 
