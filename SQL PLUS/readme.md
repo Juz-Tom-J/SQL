@@ -1,8 +1,8 @@
-## Quick Navigation
+### Quick Navigation
 * Click the link to go to specific heading
 
   * [Downloading Zip File](###Download-and-start-installation)
-  * [Installation](###After-the-running,-you-can-see:)
+  * [Installation](###Run-setup.exe)
 
 <br>
 
@@ -16,7 +16,8 @@
 
 <br>
 
-### After the running, you can see:
+### Run setup.exe
+
    * Put your mouse cursor on the image to see instructions.
 <img src="images/inst1.jpeg" title="Installing..wait" width="400"/>
 
