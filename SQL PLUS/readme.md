@@ -23,5 +23,8 @@
 <br>
 
 ### Now go to 'START' and type 'sql plus'
-* open the 'sql plus' application
-![img](images/sqlplus_search.png)
+<img src="images/sqlplus_search.png" title="SQL Plus on start" width="400"/>
+
+
+* open the 'sql plus' application & you will see
+<img src="images/sql_opening_page.png" title="SQL Plus on start" width="400"/>
