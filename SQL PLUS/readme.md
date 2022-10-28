@@ -4,3 +4,4 @@
 
 * No need to extract the zip, just open and double-click the 'setup.exe'
 
+![image](image/setup.png)
