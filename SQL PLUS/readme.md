@@ -27,7 +27,9 @@
 
 
 * open the 'sql plus' application & you will see
+
 <img src="images/sql_opening_page.png" title="SQL Plus on start" width="400"/>
+
 
 * Type near 'Enter user-name:'
 
@@ -52,4 +54,5 @@
 
 
 * Demo user creation:
+
 <img src="images/sql1.png" title="SQL Plus on start" width="400"/>
