@@ -7,7 +7,7 @@
 <img src="images/setup.png" title="setup.exe" width="400"/>
 
 * After the running, you can see:
-   * Hover with mouse cursor on the image to see instructions
+   * Put your mouse cursor on the image to see instructions.
 <img src="images/inst1.jpeg" title="Installing..wait" width="400"/>
 
 <img src="images/inst2.jpeg" title="Accept the agreements" width="400"/>
@@ -19,3 +19,9 @@
 <img src="images/inst4.jpeg" title="Click 'Install'" width="400"/>
 
 <img src="images/inst5.jpeg" title="Loading...FInished" width="400"/>
+
+<br>
+
+### Now go to 'START' and type 'sql plus'
+* open the 'sql plus' application
+![img](images/sqlplus_search.png)
