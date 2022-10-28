@@ -55,13 +55,14 @@
 
 * Demo user creation:
 
-<img src="images/SQL1.png" title="SQL Plus on start" width="400"/>
+<img src="images/SQL1.png" title="Demo user creation" width="400"/>
 
 ### Now open another 'SQL Plus' tab
 
 * For login, type your username & password
 * And, try creating some demo tables & inserting values in it
 
-<img src="images/SQL2.png" title="SQL Plus on start" width="400"/>
+<img src="images/SQL2.png" title="Testing new user" width="400"/>
+
 
 ## Write some SQL queries using [this](https://github.com/004Ajay/SQL)
