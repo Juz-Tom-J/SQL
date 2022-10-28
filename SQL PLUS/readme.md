@@ -2,9 +2,21 @@
 * Click the link to go to specific heading
 
   * [Downloading Zip File](#Download-and-start-installation)
+
   * [Installation](#Run-setup-file)
 
+  * [User creation](#User-creation)
+
+  * [Dropping user](#Dropping-user)
+
+  * [Demo Queries](#Demo-Queries)
+
+  * [Writing real queries](#Writing-real-queries)
+
+
 <br>
+<!-- ------------------------------------------- -->
+---
 
 ### Download and start installation
 
@@ -16,10 +28,15 @@
 
 <br>
 
+<!-- ------------------------------------------- -->
+---
+
 ### Run setup file
    * Run 'setup.exe'
    * Put your mouse cursor on the image to see instructions.
 <img src="images/inst1.jpeg" title="Installing..wait" width="400"/>
+
+* Accept the agreements
 
 <img src="images/inst2.jpeg" title="Accept the agreements" width="400"/>
 
@@ -27,15 +44,23 @@
 
 <img src="images/inst3.jpeg" title="Set Password" width="400"/>
 
+* Click 'Install'
+
 <img src="images/inst4.jpeg" title="Click 'Install'" width="400"/>
 
-<img src="images/inst5.jpeg" title="Loading...FInished" width="400"/>
+* Loading...Finished
+
+<img src="images/inst5.jpeg" title="Loading...Finished" width="400"/>
 
 <br>
 
 ### Now go to 'START' and type 'sql plus'
 <img src="images/sqlplus_search.png" title="SQL Plus on start" width="400"/>
 
+<!-- ------------------------------------------- -->
+---
+
+### User creation
 
 * open the 'sql plus' application & you will see
 
@@ -64,9 +89,15 @@
         grant resource, connect, dba to <username>;
 
 
-* Demo user creation:
+* Demo image:
 
 <img src="images/SQL1.png" title="Demo user creation" width="400"/>
+
+<br>
+<!-- ------------------------------------------- -->
+---
+
+### Dropping user
 
 * Drop unwanted users using
 
@@ -75,13 +106,23 @@
 <img src="images/drop_user.png" title="Drop user" width="400"/>
 
 <br>
+<!-- ------------------------------------------- -->
+---
 
-### Now open another 'SQL Plus' tab
+### Demo Queries
+
+* Open another 'SQL Plus' tab
 
 * For login, type your username & password
+
 * And, try creating some demo tables & inserting values in it
 
 <img src="images/SQL2.png" title="Testing new user" width="400"/>
 
+<br>
+<!-- ------------------------------------------- -->
+---
 
-## Write some SQL queries using [this](https://github.com/004Ajay/SQL)
+### Writing real queries
+
+* Write some SQL queries using [this](https://github.com/004Ajay/SQL)
