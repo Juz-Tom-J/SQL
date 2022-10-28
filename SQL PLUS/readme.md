@@ -29,7 +29,7 @@
 * open the 'sql plus' application & you will see
 <img src="images/sql_opening_page.png" title="SQL Plus on start" width="400"/>
 
-* Put username as
+* Type near 'Enter user-name:'
 
         / as sysdba
 
@@ -42,11 +42,11 @@
 
         create user <username> identified by <password>;
 
-*
+* Change _username_ to your username
 
         grant unlimited tablespace to <username>;
 
-*
+* Change _username_ to your username
 
         grant resource, connect, dba to <username>;
 
