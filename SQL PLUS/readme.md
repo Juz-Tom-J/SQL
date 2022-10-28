@@ -2,7 +2,7 @@
 * Click the link to go to specific heading
 
   * [Downloading Zip File](#Download-and-start-installation)
-  * [Installation](#Run-setup-exe)
+  * [Installation](#Run-setup-file)
 
 <br>
 
@@ -16,8 +16,8 @@
 
 <br>
 
-### Run setup.exe
-
+### Run setup file
+   * Run 'setup.exe'
    * Put your mouse cursor on the image to see instructions.
 <img src="images/inst1.jpeg" title="Installing..wait" width="400"/>
 
