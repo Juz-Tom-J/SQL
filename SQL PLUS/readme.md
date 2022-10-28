@@ -21,7 +21,7 @@
 
 ### Download and start installation
 
-* Use college mail, go to drive and download the [zip_file](https://drive.google.com/drive/folders/16MCEMFbHjtlix31bOx_wI8adU1nD5j2j)
+* Use SJCET college mail, go to drive and download the [zip_file](https://drive.google.com/drive/folders/16MCEMFbHjtlix31bOx_wI8adU1nD5j2j)
 
 * No need to extract the zip, just open and double-click the 'setup.exe'
 
@@ -37,7 +37,10 @@
    * Run 'setup.exe'
 
    * Put your mouse cursor on the image to see instructions.
-<img src="images/inst1.jpeg" title="Installing..wait" width="400"/>
+
+* Extracting... wait
+
+<img src="images/inst1.jpeg" title="Extracting... wait" width="400"/>
 
 * Accept the agreements
 
