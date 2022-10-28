@@ -57,6 +57,14 @@
 
 <img src="images/SQL1.png" title="Demo user creation" width="400"/>
 
+* Drop unwanted users using
+
+        drop user <username>
+
+<img src="images/drop_user.png" title="Drop user" width="400"/>
+
+<br>
+
 ### Now open another 'SQL Plus' tab
 
 * For login, type your username & password
