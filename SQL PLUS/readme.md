@@ -28,3 +28,28 @@
 
 * open the 'sql plus' application & you will see
 <img src="images/sql_opening_page.png" title="SQL Plus on start" width="400"/>
+
+* Put username as
+
+        / as sysdba
+
+* For changing the settings to accept any type of username
+
+        alter session set "_ORACLE_SCRIPT"=true;
+
+* Change _username_ to your username
+* Set a good password like '1234' :relieved: 
+
+        create user <username> identified by <password>;
+
+*
+
+        grant unlimited tablespace to <username>;
+
+*
+
+        grant resource, connect, dba to <username>;
+
+
+* Demo user creation:
+<img src="images/sql1.png" title="SQL Plus on start" width="400"/>
