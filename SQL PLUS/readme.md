@@ -16,6 +16,7 @@
 
 <br>
 <!-- ------------------------------------------- -->
+
 ---
 
 ### Download and start installation
@@ -31,8 +32,10 @@
 <!-- ------------------------------------------- -->
 ---
 
-### Run setup file
+### Installation
+
    * Run 'setup.exe'
+
    * Put your mouse cursor on the image to see instructions.
 <img src="images/inst1.jpeg" title="Installing..wait" width="400"/>
 
@@ -54,13 +57,15 @@
 
 <br>
 
-### Now go to 'START' and type 'sql plus'
-<img src="images/sqlplus_search.png" title="SQL Plus on start" width="400"/>
-
 <!-- ------------------------------------------- -->
+
 ---
 
 ### User creation
+
+* Go to 'START' and type 'sql plus'
+<img src="images/sqlplus_search.png" title="SQL Plus on start" width="400"/>
+
 
 * open the 'sql plus' application & you will see
 
@@ -94,7 +99,9 @@
 <img src="images/SQL1.png" title="Demo user creation" width="400"/>
 
 <br>
+
 <!-- ------------------------------------------- -->
+
 ---
 
 ### Dropping user
@@ -106,7 +113,9 @@
 <img src="images/drop_user.png" title="Drop user" width="400"/>
 
 <br>
+
 <!-- ------------------------------------------- -->
+
 ---
 
 ### Demo Queries
@@ -120,9 +129,9 @@
 <img src="images/SQL2.png" title="Testing new user" width="400"/>
 
 <br>
+
 <!-- ------------------------------------------- -->
+
 ---
 
-### Writing real queries
-
-* Write some SQL queries using [this](https://github.com/004Ajay/SQL)
+### Writing real queries - Click [this](https://github.com/004Ajay/SQL)
