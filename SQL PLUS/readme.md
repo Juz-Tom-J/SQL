@@ -1,8 +1,8 @@
 ### Quick Navigation
 * Click the link to go to specific heading
 
-  * [Downloading Zip File](###Download-and-start-installation)
-  * [Installation](###Run-setup.exe)
+  * [Downloading Zip File](#Download-and-start-installation)
+  * [Installation](#Run-setup.exe)
 
 <br>
 
