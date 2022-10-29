@@ -41,3 +41,15 @@ WHERE SEX='F' AND DESIG='Typist';
 
 SELECT * FROM EMPLOYEE
 WHERE DESIG='Clerk' AND BASIC<3000;
+
+
+-- Display the details of managers or analyst working for department id=2.
+
+SELECT * FROM EMPLOYEE
+WHERE (DESIG='Manager' OR DESIG='Analyst') AND DEPTID=2;
+
+
+-- Display the designation salary of Ruby.
+
+SELECT DESIG,BASIC FROM EMPLOYEE
+WHERE NAME='Ruby';
