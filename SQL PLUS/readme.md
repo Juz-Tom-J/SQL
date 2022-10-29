@@ -138,4 +138,4 @@
 ---
 
 ### Write some real queries
-* Go to [this link](https://github.com/004Ajay/SQL#BASICS)
+* Go with [basic SQL](https://github.com/004Ajay/SQL#BASICS)
