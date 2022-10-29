@@ -5,8 +5,7 @@ SELECT * FROM EMPLOYEE
 ORDER BY BASIC DESC;
 
 
--- Display the details of employees according to the descending order of their
-salary
+-- Display the details of employees according to the descending order of their salary
 
 SELECT * FROM EMPLOYEE
 ORDER BY JOIN_DATE  ASC;
