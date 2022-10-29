@@ -11,7 +11,7 @@
 
   * [Demo Queries](#Demo-Queries)
 
-  * [Writing real queries](#Write-some-real-queries)
+  * [Write some real queries](#Write-some-real-queries)
 
 
 <br>
