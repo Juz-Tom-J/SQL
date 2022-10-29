@@ -11,7 +11,7 @@
 
   * [Demo Queries](#Demo-Queries)
 
-  * [Writing real queries](#Writing-real-queries)
+  * [Writing real queries](#Write-some-real-queries)
 
 
 <br>
@@ -137,4 +137,4 @@
 
 ---
 
-### Writing real queries - Click [this](https://github.com/004Ajay/SQL#BASICS)
+### Write some real queries - Click [this](https://github.com/004Ajay/SQL#BASICS)
