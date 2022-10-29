@@ -137,4 +137,5 @@
 
 ---
 
-### Write some real queries - Click [this](https://github.com/004Ajay/SQL#BASICS)
+### Write some real queries
+* Go to [this link](https://github.com/004Ajay/SQL#BASICS)
