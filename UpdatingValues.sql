@@ -1,5 +1,5 @@
 -- Update the valyes of manager_id of employee as null for 101,101 for
-102,121,156,102 for 123,114,115,121 for 127.
+-- 102,121,156,102 for 123,114,115,121 for 127.
 
 UPDATE EMPLOYEE
 SET MANAGER_ID = NULL
@@ -17,8 +17,7 @@ UPDATE EMPLOYEE
 SET MANAGER_ID = 121
 WHERE ID = 127;
 
-
-
+-- ---------------------------------------------------------------------------------------------------- --
 
 -- Update appropriate values for joining date.
 

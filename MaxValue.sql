@@ -3,6 +3,7 @@
 SELECT MAX(BASIC) AS MAX_FEMALE FROM EMPLOYEE
 WHERE SEX='F';
 
+-- ---------------------------------------------------------------------------------------------------- --
 
 -- Display the min salary given for male employees.
 
