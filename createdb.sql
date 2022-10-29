@@ -1,4 +1,3 @@
--- SQL Command to make a new database.
-   -- create database <database_name>
+--  Create new database.
 
-create database WORKS
+create database COMPANY;
