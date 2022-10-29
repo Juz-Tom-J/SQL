@@ -9,41 +9,22 @@
 
 ## BASICS
 
-* [Database Creation](https://github.com/004Ajay/SQL/blob/main/createdb.sql)
+* [Create Database](https://github.com/004Ajay/SQL/blob/main/CreateDB.sql)
 
-<!--   
----
-## BASICS
+* [Create Table](https://github.com/004Ajay/SQL/blob/main/CreateTable.sql)
 
-* [Database Creation](https://github.com/004Ajay/SQL/blob/main/createdb.sql)
+* [Describe Table](https://github.com/004Ajay/SQL/blob/main/DescribeTable.sql)
 
-* [Database Creation](https://github.com/004Ajay/SQL/blob/main/createdb.sql)
+* [Insert Values](https://github.com/004Ajay/SQL/blob/main/InsertValues.sql)
 
-* [Database Creation](https://github.com/004Ajay/SQL/blob/main/createdb.sql)
+* [Display Values](https://github.com/004Ajay/SQL/blob/main/DisplayValues.sql)
 
-* [Database Creation](https://github.com/004Ajay/SQL/blob/main/createdb.sql)
+* [Updating Values](https://github.com/004Ajay/SQL/blob/main/UpdatingValues.sql)
 
-* [Database Creation](https://github.com/004Ajay/SQL/blob/main/createdb.sql)
+* [Adding Column](https://github.com/004Ajay/SQL/blob/main/AddingColumn.sql)
 
+* [Count Distinct Values](https://github.com/004Ajay/SQL/blob/main/CountDistinct.sql)
 
----
+* [Finding Max Value](https://github.com/004Ajay/SQL/blob/main/MaxValue.sql)
 
-## ARRAYS
-
-
-## MATRIX
-
-
----
-
-## SEARCHING
-
-
----
-
-## FUNCTION
-
-
----
-
--->
+* [Ordering Descending or Ascending](https://github.com/004Ajay/SQL/blob/main/OrderByDescAsc.sql)
