@@ -38,6 +38,3 @@
 ## SQL Plus Installation (with exe file & image)
 
 * [SQL PLUS](https://github.com/004Ajay/SQL/tree/main/SQL%20PLUS#Quick-Navigation)
-
-
-hello `world` this is me
