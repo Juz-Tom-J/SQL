@@ -32,3 +32,12 @@
 * [Finding Max Value](https://github.com/004Ajay/SQL/blob/main/MaxValue.sql)
 
 * [Ordering Descending or Ascending](https://github.com/004Ajay/SQL/blob/main/OrderByDescAsc.sql)
+
+---
+
+## SQL Plus Installation (with exe file & image)
+
+* [SQL PLUS](https://github.com/004Ajay/SQL/tree/main/SQL%20PLUS#Quick-Navigation)
+
+
+hello `world` this is me
