@@ -9,7 +9,7 @@
 
 ## Command-line interpreter view correction codes
 
-* [SQL Plus Correction Codes](https://github.com/004Ajay/SQL/blob/main/SqlPlusCorrectionCode.sql)
+* [SQL Plus Correction Codes](https://github.com/004Ajay/SQL/blob/main/SqlPlusCorrectionCodes.sql)
 
 ## BASICS
 
