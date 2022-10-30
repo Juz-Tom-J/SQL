@@ -15,6 +15,7 @@
 
 
 <br>
+
 <!-- ------------------------------------------- -->
 
 ---
@@ -126,6 +127,7 @@
 * Open another 'SQL Plus' tab
 
 * For login, type your username & password
+  * **password won't be displayed there, but type your full password correctly and hit enter.**
 
 * And, try creating some demo tables & inserting values in it
 
