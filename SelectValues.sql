@@ -1,3 +1,10 @@
+-- Show all tables by current user
+   -- no need to change 'table_name' or 'user_tables', just copy & paste
+
+SELECT table_name FROM user_tables;
+
+-- ---------------------------------------------------------------------------------------------------- --
+
 -- Display all records from the table
 
 SELECT * FROM EMPLOYEE;

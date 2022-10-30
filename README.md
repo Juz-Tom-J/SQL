@@ -21,7 +21,7 @@
 
 * [Insert Values](https://github.com/004Ajay/SQL/blob/main/InsertValues.sql)
 
-* [Display Values](https://github.com/004Ajay/SQL/blob/main/DisplayValues.sql)
+* [Select Values](https://github.com/004Ajay/SQL/blob/main/SelectValues.sql)
 
 * [Updating Values](https://github.com/004Ajay/SQL/blob/main/UpdatingValues.sql)
 
