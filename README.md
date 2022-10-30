@@ -6,6 +6,8 @@
 ## Structured Query Language (SQL)
 
 ---
+## Command-line interpreter View correction
+* [SQL Plus Corrections Codes](https://github.com/004Ajay/SQL/blob/main/SqlPlusCorrections.sql)
 
 ## BASICS
 
