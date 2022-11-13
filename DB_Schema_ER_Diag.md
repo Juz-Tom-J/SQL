@@ -1,16 +1,16 @@
-<u> AIM </u>
+**AIM**
 
 Design a database schema and ER Diagram for national hockey team
 
 <br>
 
-<u> REQUIREMENT </u>
+**REQUIREMENT**
 
 The NHL has many teams, each team has a name, a city, a coach, a captain and a set of players. Each player belongs to only one team. Each player has a name, position, skill level, and a set of injury records. Team captain is also a player. A game is played between two teams, and the game has a date and scores 
 
 <br>
 
-<u> SAMPLE DATABASE DESIGN </u>
+**SAMPLE DATABASE DESIGN**
 
 * Team(team_id, team_name, captain, city, coach)
     * team_id is primary key
@@ -25,6 +25,6 @@ The NHL has many teams, each team has a name, a city, a coach, a captain and a s
 
 <br>
 
-<u> ER DIAGRAM </u>
+**ER DIAGRAM**
 
 ![ER DIAGRAM](NHL_ER_DIAGRAM.png)
