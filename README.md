@@ -11,7 +11,7 @@
 
 * [SQL Plus Correction Codes](https://github.com/004Ajay/SQL/blob/main/SqlPlusCorrectionCodes.sql)
 
-## BASICS
+## Programs
 
 * [Create Database](https://github.com/004Ajay/SQL/blob/main/CreateDB.sql)
 
@@ -32,6 +32,11 @@
 * [Finding Max Value](https://github.com/004Ajay/SQL/blob/main/MaxValue.sql)
 
 * [Ordering Descending or Ascending](https://github.com/004Ajay/SQL/blob/main/OrderByDescAsc.sql)
+
+## LAB Experiments
+
+* [Finding Max Value](https://github.com/004Ajay/SQL/blob/main/DDL_Commands.sql)
+
 
 ---
 
