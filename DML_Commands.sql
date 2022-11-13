@@ -4,7 +4,9 @@ CREATE TABLE department(deptid INT NOT NULL, dname VARCHAR(50), primary key(dept
 
 -- ---------------------------------------------------------------------------------------------------- --
 
--- Insert values to the department table.Make sure tha all the existing values for deptid in employee is inserted into this table. Sample values are design(1),codding(2),testing(3),research(4).
+-- Insert values to the department table.Make sure tha all the
+-- existing values for deptid in employee is inserted into this table.
+-- Sample values are design(1),codding(2),testing(3),research(4).
 
 INSERT INTO DEPARTMENT VALUES(1,'Design');
 INSERT INTO DEPARTMENT VALUES(2,'Coding');
@@ -52,7 +54,8 @@ select name from employee where manager_id = 101;
 
 -- ---------------------------------------------------------------------------------------------------- --
 
--- Display the deptid and total no.of employees as ‘NO_OF _DEPARTMENT_EMPLOYEES’ for only those department with more than 3 employees.
+-- Display the deptid and total no.of employees as ‘NO_OF _DEPARTMENT_EMPLOYEES’ for only
+-- those department with more than 3 employees.
 
 SELECT DEPT_ID AS DEPARTMENT, COUNT(ID) AS NO_OF_EMPLOYEE
 FROM EMPLOYEE

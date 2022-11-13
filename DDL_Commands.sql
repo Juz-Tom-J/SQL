@@ -1,5 +1,5 @@
 -- Display ID,NAME,DESIG,DEPTID,and ,BASIC,DA,HRA,AndNET_SAL
-respectively[da is 7.5% of basic,hra is 9% of asic and net_sal=asic+da+hra].
+-- respectively[da is 7.5% of basic,hra is 9% of asic and net_sal=asic+da+hra].
 
 SELECT ID, NAME, DESIG, DEPTID, BASIC,
 (7.5/100)*BASIC AS DA,
@@ -22,7 +22,8 @@ SELECT DISTINCT DESIG FROM AS DIFFERENT_DESIGNATIONS FROM EMPLOYEE;
 
 -- ---------------------------------------------------------------------------------------------------- --
 
--- Displayid,name,department and basic of all the employees who are either in manager or clerk and the basic salary is in the range of 1400 and 4500.
+-- Displayid,name,department and basic of all the employees
+-- who are either in manager or clerk and the basic salary is in the range of 1400 and 4500.
 
 SELECT DISTINCT DESIG FROM EMPLOYEE;
 SELECT ID,NAME,DEPTID,BASIC FROM EMPLOYEE
