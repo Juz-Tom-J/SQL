@@ -23,6 +23,8 @@ The NHL has many teams, each team has a name, a city, a coach, a captain and a s
 
 * Game(game_id, host_team, guest_team, host_team_score, guest_team_score, game_date)
 
-<u> ER DIAGRAM</u>
+<br>
+
+<u> ER DIAGRAM </u>
 
 ![ER DIAGRAM](NHL_ER_DIAGRAM.png)
