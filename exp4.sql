@@ -48,7 +48,7 @@ ORDER BY dept_id;
 
 -- Display the names of the employees working under the manager RAM
 
-select name from employee where dname = 'Ram';
+select name from employee where manager_id = 101;
 
 -- ---------------------------------------------------------------------------------------------------- --
 
