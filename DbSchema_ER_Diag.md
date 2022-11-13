@@ -1,19 +1,28 @@
-AIM
+<u> AIM </u>
 
 Design a database schema and ER Diagram for national hockey team
 
-REQUIREMENT
+<br>
 
-The NHL has many teams, each team has a name, a city, a wach, a captain and set of players. Each player belongs to only one team. Each player has a name, position, skill level, and a set of injury records. Team captain is also a player A game is played between two teams, has date and score 
+<u> REQUIREMENT </u>
+
+The NHL has many teams, each team has a name, a city, a coach, a captain and a set of players. Each player belongs to only one team. Each player has a name, position, skill level, and a set of injury records. Team captain is also a player. A game is played between two teams, and the game has a date and scores 
 
 <br>
 
-SAMPLE DATABASE DESIGN
+<u> SAMPLE DATABASE DESIGN </u>
 
-Team(Team- Id, Team-_name, Captain, city, coach) Team_Id is primary key
+* Team(team_id, team_name, captain, city, coach)
+    * team_id is primary key
 
-Player (Player_Id, Team. Id, player-name, position, skill_level) // Team_Id is a foreign key that references Team table
+* Player(player_id, team_id, player_name, position, skill_level) 
+    * team_id is a foreign key that references Team table
 
-Injury Record (Player_Id, Incident-Desc, Injury- Dex) // player_Id is a foreign key that references player table.
+* Injury_Record(player_id, incident_desc, injury_desc
+    * player_id is a foreign key that references player table.
 
-• Game (Game_id, Host Team, Guest Team, Host Team Score, Guast Team Score Game Date)
+* Game(game_id, host_team, guest_team, host_team_score, guest_team_score, game_date)
+
+<u> ER DIAGRAM</u>
+
+![ER DIAGRAM](NHL_ER_DIAGRAM.png)

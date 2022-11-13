@@ -35,7 +35,7 @@
 
 ## LAB Experiments
 
-* [Database Schema & ER Diagram](https://github.com/004Ajay/SQL/blob/main/DbSchema_ER_Diag.sql)
+* [Database Schema & ER Diagram](https://github.com/004Ajay/SQL/blob/main/DbSchema_ER_Diag.md)
 
 * [Familiarization of DDL Commands](https://github.com/004Ajay/SQL/blob/main/DDL_Commands.sql)
 
