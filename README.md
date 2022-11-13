@@ -35,7 +35,9 @@
 
 ## LAB Experiments
 
-* [Finding Max Value](https://github.com/004Ajay/SQL/blob/main/DDL_Commands.sql)
+* [Familiarization of DDL Commands](https://github.com/004Ajay/SQL/blob/main/DDL_Commands.sql)
+
+* [Familiarization of DML Commands](https://github.com/004Ajay/SQL/blob/main/DML_Commands.sql)
 
 
 ---
