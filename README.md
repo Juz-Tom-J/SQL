@@ -11,6 +11,20 @@
 
 * [SQL Plus Correction Codes](https://github.com/004Ajay/SQL/blob/main/SqlPlusCorrectionCodes.sql)
 
+
+---
+
+## LAB Experiments
+
+* [Database Schema & ER Diagram](https://github.com/004Ajay/SQL/blob/main/DB_Schema_ER_Diag.md)
+
+* [Familiarization of DDL Commands](https://github.com/004Ajay/SQL/blob/main/DDL_Commands.sql)
+
+* [Familiarization of DML Commands](https://github.com/004Ajay/SQL/blob/main/DML_Commands.sql)
+
+
+---
+
 ## Programs
 
 * [Create Database](https://github.com/004Ajay/SQL/blob/main/CreateDB.sql)
@@ -32,14 +46,6 @@
 * [Finding Max Value](https://github.com/004Ajay/SQL/blob/main/MaxValue.sql)
 
 * [Ordering Descending or Ascending](https://github.com/004Ajay/SQL/blob/main/OrderByDescAsc.sql)
-
-## LAB Experiments
-
-* [Database Schema & ER Diagram](https://github.com/004Ajay/SQL/blob/main/DB_Schema_ER_Diag.md)
-
-* [Familiarization of DDL Commands](https://github.com/004Ajay/SQL/blob/main/DDL_Commands.sql)
-
-* [Familiarization of DML Commands](https://github.com/004Ajay/SQL/blob/main/DML_Commands.sql)
 
 
 ---
