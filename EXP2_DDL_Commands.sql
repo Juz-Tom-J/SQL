@@ -3,7 +3,7 @@
 -- ---------------------------------------------------------------------------------------------------- --
 
 -- Create a table with the following columns.
--- Employee(ID ,DEPTID,NAME,DESIG,BASIC,SEX) -> ID is PRIMARY KEY
+-- Employee(ID, DEPTID, NAME, DESIG, BASIC, SEX) -> ID is PRIMARY KEY
 
 CREATE TABLE EMPLOYEE(id INT NOT NULL, dept_id INT, name varchar(20), desig varchar(20), basic INT, sex varchar(6), PRIMARY KEY(id));
 
@@ -34,13 +34,13 @@ SELECT * FROM EMPLOYEE;
 
 -- ---------------------------------------------------------------------------------------------------- --
 
--- Display the ID,NAME,DESIG,BASIC of all employees
+-- Display the ID, NAME, DESIG, BASIC of all employees
 
 SELECT ID, NAME, DESIG, BASIC FROM EMPLOYEE;
 
 -- ---------------------------------------------------------------------------------------------------- --
 
--- Display Id and name of all the employees from dept no=2.
+-- Display Id and name of all the employees from dept no = 2.
 
 SELECT ID,NAME FROM EMPLOYEE
 WHERE DEPT_ID=2;
@@ -89,8 +89,8 @@ ADD MANAGER_ID INTEGER;
 
 -- ---------------------------------------------------------------------------------------------------- --
 
--- Update the values of manager_id of employee as null for 101,101 for
--- 102,121,156,102 for 123,114,115,121 for 127.
+-- Update the values of manager_id of employee as null for 101, 101 for
+-- 102, 121, 156, 102 for 123, 114, 115, 121 for 127.
 
 UPDATE EMPLOYEE
 SET MANAGER_ID = NULL
@@ -98,11 +98,11 @@ WHERE ID = 101;
 
 UPDATE EMPLOYEE
 SET MANAGER_ID = 101
-WHERE ID = 102 OR ID=121 OR ID=156;
+WHERE ID = 102 OR ID = 121 OR ID = 156;
 
 UPDATE EMPLOYEE
 SET MANAGER_ID = 102
-WHERE ID = 123 OR ID=114 OR ID=115;
+WHERE ID = 123 OR ID = 114 OR ID = 115;
 
 UPDATE EMPLOYEE
 SET MANAGER_ID = 121
@@ -148,10 +148,10 @@ WHERE SEX='F';
 
 -- ---------------------------------------------------------------------------------------------------- --
 
--- Display the details of managers or analyst working for department id=2.
+-- Display the details of managers or analyst working for department id = 2.
 
 SELECT * FROM EMPLOYEE
-WHERE (DESIG='Manager' OR DESIG='Analyst') AND DEPTID=2;
+WHERE (DESIG='Manager' OR DESIG='Analyst') AND DEPTID = 2;
 
 -- ---------------------------------------------------------------------------------------------------- --
 
