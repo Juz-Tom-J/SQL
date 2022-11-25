@@ -125,7 +125,7 @@ select  name, dname, sex from employee  e join department  d on e.DEPT_ID=d.DEPT
 
 -- Add a column CITY for employee table.
 
-
+alter table employee add city varchar(20);
 
 -- ---------------------------------------------------------------------------------------------------- --
 
@@ -143,6 +143,14 @@ ID  CITY
 127 DELHI.
 */
 
+UPDATE EMPLOYEE SET CITY = 'DELHI' WHERE ID = 127;
+UPDATE EMPLOYEE SET CITY = 'CALICUT'  WHERE ID = 101;
+UPDATE EMPLOYEE SET CITY =  'CHENNAI' WHERE ID = 102;
+UPDATE EMPLOYEE SET CITY = 'DELHI' WHERE ID = 121;
+UPDATE EMPLOYEE SET CITY =  'CHENNAI' WHERE ID = 156;
+UPDATE EMPLOYEE SET CITY =  'BANGALORE' WHERE ID = 123;
+UPDATE EMPLOYEE SET CITY = 'MALAPPURAM' WHERE ID = 114;
+UPDATE EMPLOYEE SET CITY = 'BANGALORE' WHERE ID = 115;
 
 
 -- ---------------------------------------------------------------------------------------------------- --
@@ -150,7 +158,7 @@ ID  CITY
 
 -- Add a column city for department table.
 
-
+alter table department add city varchar(20);
 
 -- ---------------------------------------------------------------------------------------------------- --
 
@@ -164,11 +172,14 @@ Deptid  City
 4       Banglore
 */
 
-
+UPDATE DEPARTMENT SET CITY = 'CALICUT'  WHERE DEPTID = 1;
+UPDATE DEPARTMENT SET CITY = 'DELHI' WHERE DEPTID = 2;
+UPDATE DEPARTMENT SET CITY =  'CHENNAI' WHERE DEPTID = 3;
+UPDATE DEPARTMENT SET CITY =  'BANGALORE' WHERE DEPTID = 4;
 
 -- ---------------------------------------------------------------------------------------------------- --
 
--- Select id, name, city from employee1.
+-- Select id, name, city from employee1.
 
 
 
