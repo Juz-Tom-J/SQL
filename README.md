@@ -16,11 +16,11 @@
 
 ## LAB Experiments
 
-* [Exp 1 -> Database Schema & ER Diagram](https://github.com/004Ajay/SQL/blob/main/DB_Schema_ER_Diag.md)
+* [Exp 1 -> Database Schema & ER Diagram](https://github.com/004Ajay/SQL/blob/main/EXP1_DB_Schema_ER_Diag.md)
 
-* [Exp 2 -> Familiarization of DDL Commands](https://github.com/004Ajay/SQL/blob/main/DDL_Commands.sql)
+* [Exp 2 -> Familiarization of DDL Commands](https://github.com/004Ajay/SQL/blob/main/EXP2_DDL_Commands.sql)
 
-* [Exp 3 -> Familiarization of DML Commands](https://github.com/004Ajay/SQL/blob/main/DML_Commands.sql)
+* [Exp 3 -> Familiarization of DML Commands](https://github.com/004Ajay/SQL/blob/main/EXP3_DML_Commands.sql)
 
 * [Exp 4 -> DML & DDL Commands](https://github.com/004Ajay/SQL/blob/main/EXP4_DMLDDLCmds.sql)
 
