@@ -83,3 +83,109 @@ HAVING MIN(BASIC) > 2500;
 SELECT name, basic
 FROM employee
 WHERE basic IN (SELECT max(basic) FROM employee GROUP BY dept_id);
+
+
+
+
+
+
+
+
+
+
+EXPERIMENT NO: 04 DML & DDL COMMANDS
+
+
+-- ---------------------------------------------------------------------------------------------------- --
+
+
+-- Display the salary given by the design department.
+
+
+
+-- ---------------------------------------------------------------------------------------------------- --
+
+
+-- play the details of typist working in design department.
+
+
+
+-- ---------------------------------------------------------------------------------------------------- --
+
+
+-- Display the salaries of employees working in research department.
+
+
+
+-- ---------------------------------------------------------------------------------------------------- --
+
+
+-- List the female employees working in testing department.
+
+
+
+-- ---------------------------------------------------------------------------------------------------- --
+
+
+-- Add a column CITY for employee table.
+
+
+
+-- ---------------------------------------------------------------------------------------------------- --
+
+
+-- Insert the following values into city of employees.
+/*
+ID  CITY
+101 CALICUT.
+102 CHENNAI.
+121 DELHI.
+156 CHENNAI.
+123 BANGLURE.
+114 MALAPPURAM.
+115 BANGLURE.
+127 DELHI.
+*/
+
+
+
+-- ---------------------------------------------------------------------------------------------------- --
+
+
+-- Add a column city for department table.
+
+
+
+-- ---------------------------------------------------------------------------------------------------- --
+
+
+-- Insert the following values into city in department table.
+/*
+Deptid  City
+1       Calicut
+2       Delhi
+3       Chennai
+4       Banglore
+*/
+
+
+
+-- ---------------------------------------------------------------------------------------------------- --
+
+-- Select id, name, city from employee1.
+
+
+
+-- ---------------------------------------------------------------------------------------------------- --
+
+
+-- Select deptid, dname, city from department.
+
+
+
+-- ---------------------------------------------------------------------------------------------------- --
+
+
+-- Find the names of employees who are from the same city as their company.
+
+
