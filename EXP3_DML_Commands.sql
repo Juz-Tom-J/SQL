@@ -2,20 +2,20 @@
 
 -- ---------------------------------------------------------------------------------------------------- --
 
--- Display ID,NAME,DESIG,DEPTID,and ,BASIC, DA, HRA, and NET_SAL
--- respectively[da is 7.5% of basic,hra is 9% of asic and net_sal=asic+da+hra].
+-- Display ID, NAME, DESIG, DEPTID, and, BASIC, DA, HRA, and NET_SAL
+-- respectively [da is 7.5% of basic, hra is 9% of asic and net_sal = asic + da + hra].
 
 SELECT ID, NAME, DESIG, DEPTID, BASIC,
-(7.5/100)*BASIC AS DA,
-(9/100)*BASIC AS HRA,
-((7.5/100)*BASIC+(9/100)*BASIC+BASIC)
+(7.5 / 100) * BASIC AS DA,
+(9 / 100) * BASIC AS HRA,
+((7.5 / 100) * BASIC + (9 / 100) * BASIC + BASIC)
 AS NET_SAL from EMPLOYEE;
 
 -- ---------------------------------------------------------------------------------------------------- --
 
--- Displayid,name,desig,dept_id and basic salary in descending order of basic desc
+-- Display id, name, desig, dept_id and basic salary in descending order of basic desc
 
-SELECT ID,NAME,DESIG,DEPTID,BASIC FROM EMPLOYEE
+SELECT ID, NAME, DESIG, DEPTID, BASIC FROM EMPLOYEE
 ORDER BY BASIC DESC;
 
 -- ---------------------------------------------------------------------------------------------------- --
@@ -26,20 +26,20 @@ SELECT DISTINCT DESIG FROM AS DIFFERENT_DESIGNATIONS FROM EMPLOYEE;
 
 -- ---------------------------------------------------------------------------------------------------- --
 
--- Displayid,name,department and basic of all the employees
+-- Display id, name, department and basic of all the employees
 -- who are either in manager or clerk and the basic salary is in the range of 1400 and 4500.
 
 SELECT DISTINCT DESIG FROM EMPLOYEE;
-SELECT ID,NAME,DEPTID,BASIC FROM EMPLOYEE
-WHERE (DESIG='Manager' OR DESIG='Clerk')AND BASIC BETWEEN 1400 AND 4500;
+SELECT ID, NAME, DEPTID, BASIC FROM EMPLOYEE
+WHERE (DESIG = 'Manager' OR DESIG = 'Clerk') AND BASIC BETWEEN 1400 AND 4500;
 
 -- ---------------------------------------------------------------------------------------------------- --
 
--- Display the manager_id of the employee ’Ram’
+-- Display the manager_id of the employee 'Ram'
 
 SELECT DESIG, MAX(BASIC) FROM EMPLOYEE GROUP BY DESIG;
-SELECT MANAGER_ID,NAME FROM EMPLOYEE
-WHERE NAME='RAM';
+SELECT MANAGER_ID, NAME FROM EMPLOYEE
+WHERE NAME = 'RAM';
 
 -- ---------------------------------------------------------------------------------------------------- --
 
