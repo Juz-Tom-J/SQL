@@ -18,7 +18,7 @@ The NHL has many teams, each team has a name, a city, a coach, a captain and a s
 * Player(player_id, team_id, player_name, position, skill_level) 
     * team_id is a foreign key that references Team table
 
-* Injury_Record(player_id, incident_desc, injury_desc
+* Injury_Record(player_id, incident_desc, injury_desc)
     * player_id is a foreign key that references player table.
 
 * Game(game_id, host_team, guest_team, host_team_score, guest_team_score, game_date)
