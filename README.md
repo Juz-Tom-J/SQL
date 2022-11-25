@@ -22,7 +22,7 @@
 
 * [Exp 3 -> Familiarization of DML Commands](https://github.com/004Ajay/SQL/blob/main/DML_Commands.sql)
 
-* [Exp 4 -> DML & DDL Commands](https://github.com/004Ajay/SQL/blob/main/EXP4_unnamed.sql)
+* [Exp 4 -> DML & DDL Commands](https://github.com/004Ajay/SQL/blob/main/EXP4_DMLDDLCmds.sql)
 
 
 ---
