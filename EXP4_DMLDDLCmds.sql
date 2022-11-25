@@ -84,16 +84,12 @@ SELECT name, basic
 FROM employee
 WHERE basic IN (SELECT max(basic) FROM employee GROUP BY dept_id);
 
+-- ---------------------------------------------------------------------------------------------------- --
 
 
-
-
-
-
-
-
-
-EXPERIMENT NO: 04 DML & DDL COMMANDS
+    -- |------------| --
+    -- |  SET - 2   | --
+    -- |------------| --
 
 
 -- ---------------------------------------------------------------------------------------------------- --
@@ -101,12 +97,12 @@ EXPERIMENT NO: 04 DML & DDL COMMANDS
 
 -- Display the salary given by the design department.
 
-
+select sum(basic) from employee where dept_id = (select deptid from department where dname = 'Design');
 
 -- ---------------------------------------------------------------------------------------------------- --
 
 
--- play the details of typist working in design department.
+-- Display the details of typist working in design department.
 
 
 
@@ -115,14 +111,14 @@ EXPERIMENT NO: 04 DML & DDL COMMANDS
 
 -- Display the salaries of employees working in research department.
 
-
+select name, basic from employee where dept_id = (select deptid from department where dname = 'Research');
 
 -- ---------------------------------------------------------------------------------------------------- --
 
 
 -- List the female employees working in testing department.
 
-
+select  name, dname, sex from employee  e join department  d on e.DEPT_ID=d.DEPTID where d.dname='Testing';
 
 -- ---------------------------------------------------------------------------------------------------- --
 
