@@ -104,7 +104,8 @@ select sum(basic) from employee where dept_id = (select deptid from department w
 
 -- Display the details of typist working in design department.
 
-
+select name, dname, desig, basic, dept_id
+from employee e join department d on e.DEPT_ID=d.DEPTID where d.dname='Design' and e.desig = 'Typist';
 
 -- ---------------------------------------------------------------------------------------------------- --
 
@@ -172,27 +173,31 @@ Deptid  City
 4       Banglore
 */
 
-UPDATE DEPARTMENT SET CITY = 'CALICUT'  WHERE DEPTID = 1;
-UPDATE DEPARTMENT SET CITY = 'DELHI' WHERE DEPTID = 2;
-UPDATE DEPARTMENT SET CITY =  'CHENNAI' WHERE DEPTID = 3;
-UPDATE DEPARTMENT SET CITY =  'BANGALORE' WHERE DEPTID = 4;
+ UPDATE DEPARTMENT SET CITY = 'CALICUT'  WHERE DEPTID = 1;
+ UPDATE DEPARTMENT SET CITY = 'DELHI' WHERE DEPTID = 2;
+ UPDATE DEPARTMENT SET CITY =  'CHENNAI' WHERE DEPTID = 3;
+ UPDATE DEPARTMENT SET CITY =  'BANGALORE' WHERE DEPTID = 4;
 
 -- ---------------------------------------------------------------------------------------------------- --
 
--- Select id, name, city from employee1.
+-- Select id, name, city from employee.
 
-
+select id, name, city from employee;
 
 -- ---------------------------------------------------------------------------------------------------- --
 
 
 -- Select deptid, dname, city from department.
 
-
+select deptid, dname, city from department;
 
 -- ---------------------------------------------------------------------------------------------------- --
 
 
 -- Find the names of employees who are from the same city as their company.
 
-
+select  name from employee e, department  d where e.city = d.city and e.dept_id = d.deptid;
+
+-- or
+
+select name from (employee natural join department) where city = city and dept_id = deptid;
