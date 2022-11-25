@@ -2,15 +2,15 @@
 
 -- ---------------------------------------------------------------------------------------------------- --
 
--- Create a new table department with fields deptid,dname and make deptid as the primary key
+-- Create a new table department with fields deptid, dname and make deptid as the primary key
 
 CREATE TABLE department(deptid INT NOT NULL, dname VARCHAR(50), primary key(deptid));
 
 -- ---------------------------------------------------------------------------------------------------- --
 
--- Insert values to the department table.Make sure tha all the
+-- Insert values to the department table. Make sure tha all the
 -- existing values for deptid in employee is inserted into this table.
--- Sample values are design(1),codding(2),testing(3),research(4).
+-- Sample values are design(1), codding(2), testing(3), research(4).
 
 INSERT INTO DEPARTMENT VALUES(1,'Design');
 INSERT INTO DEPARTMENT VALUES(2,'Coding');
@@ -105,7 +105,7 @@ select sum(basic) from employee where dept_id = (select deptid from department w
 -- Display the details of typist working in design department.
 
 select name, dname, desig, basic, dept_id
-from employee e join department d on e.DEPT_ID=d.DEPTID where d.dname='Design' and e.desig = 'Typist';
+from employee e join department d on e.DEPT_ID = d.DEPTID where d.dname = 'Design' and e.desig = 'Typist';
 
 -- ---------------------------------------------------------------------------------------------------- --
 
@@ -119,7 +119,7 @@ select name, basic from employee where dept_id = (select deptid from department 
 
 -- List the female employees working in testing department.
 
-select  name, dname, sex from employee  e join department  d on e.DEPT_ID=d.DEPTID where d.dname='Testing';
+select  name, dname, sex from employee  e join department  d on e.DEPT_ID = d.DEPTID where d.dname='Testing';
 
 -- ---------------------------------------------------------------------------------------------------- --
 
